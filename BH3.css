@@ -1,0 +1,349 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.head {
+	position: fixed;
+	top:16px; left:0;
+	width: 100%; 
+	font-size: 18px;
+}
+.head-1 {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	white-space: nowrap;
+}
+.head-1 li {
+	list-style: none;
+	display: inline-block;
+	width: 12.5%;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.head-1 span {
+	background: #00c3ff;
+	color: black;
+	display: block;
+	width: 95%;
+	height: 50px;
+	border: 2px solid #00c3ff;
+	border-radius: 10px;
+	transform: skew(-10deg);
+	line-height: 50px;
+	box-sizing: content-box;
+	transition: 0.3s;
+}
+.S1,.S3 {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 0 auto;
+	min-width: 1024px;
+	max-width: 1920px;
+	height: 1000px;
+}
+.main {
+	background: url(img/BH3/bg.jpg) no-repeat;
+	background-size: 1920px 1000px;
+	background-position: center;
+	color: white;
+	height: auto
+}
+.S1-wrap {
+	width: 100%;
+	min-width: 1024px;
+	position: relative;
+	margin: 0 auto;
+}
+#S1-flash {
+	position: absolute;
+	left: 50%; top: 0;
+	margin-left: -960px;
+}
+.s1-wrap {
+	position: relative;
+	height: 740px;
+	width: 1024px;
+	margin: 0 auto;
+}
+.S1-1 {
+	position: absolute;
+	left: 580px; top: 120px;
+	width:403px; height: 280px;
+	background: url(img/BH3/Logo.png) no-repeat;
+	background-size: cover;
+}
+.S1-2 {
+	position: absolute;
+	left: 300px; top: 460px;
+	width: 422px; height: 146px;
+	background: url(img/BH3/P1.png);
+}
+.S1-3 {
+	position: absolute;
+	left: 800px; top: 588px;
+	width: 184px; height: 170px;
+	background: url(img/BH3/P2.png);
+	cursor: pointer;
+	transition: 0.4s;
+}
+.S2 {
+	position: relative;
+	top:-235px;
+	width: 100%; height: 550px;
+	max-width: 1920px;
+	background: url(img/BH3/list-bg.png);
+	margin:0 auto;
+}
+.add {
+	position: relative;
+	top: 376px;
+	background: #00C3FF;
+	height: 200px; width: 1920px;
+	margin:0 auto;
+}
+.PV-1 {
+	position: absolute;
+	top: 4px;left: 43px;
+	width: 400px; height: 270px;
+}
+.pv-1 {
+	position: relative;
+	top: 50px; left: 0;
+	width: 320px; height: 210px;
+	border: 5px solid white;
+	border-radius: 20px;
+	transform: skew(-10deg);
+	overflow: hidden;
+}
+.pv-mask-1 {
+	position: absolute;
+	left: -10%; top: 0;
+	width: 120%; height: 100%;
+	background:url(img/BH3/mask.png) no-repeat rgba(0,0,0,.2);
+	background-position: center;
+	transform: skew(10deg);
+	transition: 0.5s;
+}
+.pv-title-1 {
+	height: 56px;
+	line-height: 56px;
+	font-size: 22px;
+	color: white;
+	margin: 50px 98px;
+}
+#List {
+	width:960px;
+	margin:0 auto;
+	position: relative;
+	top: -198px;
+}
+.upline {
+	width: 100%;height: 50px;
+	background: url(img/BH3/upline.png) no-repeat;
+}
+#List li {
+	display:inline-block;
+	transform: skew(-10deg);
+	width: 140px; height: 140px;
+	border: 3px solid white;
+	border-radius: 16px;
+	margin: 5px;
+	list-style: none;
+	background: rgba(23,203,255,.8);
+	overflow: hidden;
+	cursor: pointer;
+	vertical-align: top;
+	transition: 0.4s;
+}
+#avatar {
+	position: relative;
+	left: -10%;
+	width: 120%; height: 140px;
+	transform: skew(10deg);
+	background-size: auto 100%;
+}
+.avatar-1 {
+	background:url(img/BH3/kiana_1.png);
+}
+.avatar-2 {
+	background:url(img/BH3/kiana_2.png);
+}
+.avatar-3 {
+	background:url(img/BH3/kiana_3.png);
+}
+.avatar-4 {
+	background:url(img/BH3/kiana_4.png);
+}
+.avatar-5 {
+	background:url(img/BH3/yayi_1.png);
+}
+.avatar-6 {
+	background:url(img/BH3/yayi_2.png);
+}
+.avatar-7 {
+	background:url(img/BH3/yayi_3.png);
+}
+.avatar-8 {
+	background:url(img/BH3/yayi_4.png);
+}
+.avatar-9 {
+	background:url(img/BH3/bronya_1.png);
+}
+.avatar-10 {
+	background:url(img/BH3/bronya_2.png);
+}
+.avatar-11 {
+	background:url(img/BH3/bronya_3.png);
+}
+.avatar-12 {
+	background:url(img/BH3/bronya_4.png);
+}
+.avatar-13 {
+	background:url(img/BH3/himeko_1.png);
+}
+.avatar-14 {
+	background:url(img/BH3/himeko_2.png);
+}
+.avatar-15 {
+	background:url(img/BH3/himeko_3.png);
+}
+.avatar-16 {
+	background:url(img/BH3/himeko_4.png);
+}
+.downline {
+	width: 100%; height: 30px;
+	background: url(img/BH3/downline.png); no-repeat;
+	background-position: center;
+}
+.PV-2 {
+	position: absolute;
+	top: 4px;left: 1553px;
+	width: 400px; height: 270px;
+}
+.pv-2 {
+	position: relative;
+	top: 50px; left: 0;
+	width: 320px; height: 210px;
+	border: 5px solid white;
+	border-radius: 20px;
+	transform: skew(-10deg);
+	overflow: hidden;
+}
+.pv-mask-2 {
+	position: absolute;
+	left: -10%; top: 0;
+	width: 120%; height: 100%;
+	background:url(img/BH3/mask.png) no-repeat rgba(0,0,0,.2);
+	background-position: center;
+	transform: skew(10deg);
+	transition: 0.5s;
+}
+.pv-title-2 {
+	height: 56px;
+	line-height: 56px;
+	font-size: 22px;
+	color: white;
+	margin: 52px 117px;
+}
+.S3 {
+	background: url(img/BH3/bg_2.jpg) no-repeat;
+	height: 655px; width: 100%;
+	background-position: center;
+	margin-top: -208px;
+}
+.news {
+	width: 1012px;height: 638px;
+	margin: auto;
+	padding-top: 88px;
+	padding-bottom: 90px;
+}
+.news-top {
+	width: 1012px; height: 316px;
+}
+.pic {
+	width: 473px; height: 317px;
+	float: left;
+}
+.news-right {
+	height: 100%; width: 490px;
+	margin-left: 20px;
+	position: relative;
+	float: left;
+}
+.list-top {
+	clear: both;
+	height: 58px;
+}
+.list-top li {
+	list-style: none;
+	float: left;
+	color: white;
+}
+.list-top a {
+	display: block;
+	width: 86px; height: 57px;
+	text-align: center;
+	line-height 57px;
+}
+.list-body {
+	margin-top: 5px; 
+	color: white;
+}
+.list-body li {
+	list-style: none;
+	font-size: 15px;
+	height: 41px;
+	line-height: 41px;
+}
+.date {
+	float: right;
+}
+.list-title {
+	float: left;
+	white-space: nowrap;
+	width: 293px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.inf {
+	list-style: none;
+	margin-left: 9px;
+	margin-top: 10px;
+	color: transparent;
+}
+.inf li {
+	position: relative;
+	width: 200px; height: 149px;
+	display: inline-block;
+	margin-left: -5px;
+}
+.footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: black;
+	height: 230px;
+}
+.content {
+	margin:0 auto;
+	position: relative;
+	width: 1024px; height: 120px;
+	color: white;
+	font-size: 12px;
+}
+.content {
+	line-height: 20px;
+}
+
+
