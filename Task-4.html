@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale>
+    <title>Task-4</title>
+    <style>
+        body {
+            background: #EEF0F4;
+        }
+        .body {
+            height: 605px;
+            width: 100%;
+            color: white;
+        }
+        .head, .bottom {
+            background: #5AC0CE;
+            height: 60px;
+            text-align:center;
+        }
+        .head-1 {
+            float: left;
+            line-height: 60px;
+            margin-left: 10px;
+        }
+        .head-2 {
+            line-height: 60px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .head-3 {
+            float: right;
+            line-height: 60px;
+            margin-right: 10px;
+        }
+        input {
+            border: 0;
+            outline: none;
+            position: relative;
+            top: -5px;
+            left: 50px;
+        }
+        .content p {
+            background: white;
+            height: 50px;
+        }
+        img {
+            width: 14px;
+            height: 21px;
+        }
+        .line {
+            background: grey;
+            display: inline-block;
+            width: 1px;
+            padding-top: 30px;
+            position: relative;
+            top: 5px;
+        }
+        .pic-1, .pic-2 {
+            display: inline-block;
+            margin: 15px 12px 0 20px;
+        }
+        .bottom span {
+            line-height: 60px;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        a {
+            float: right;
+            text-decoration: none;
+            color: #7ECBD7;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="head">
+            <span class="head-1">注册</span>
+            <span class="head-2">登录</span>
+            <span class="head-3">关闭</span>
+        </div>
+        <div class="content">
+            <p>
+                <span class="pic-1">
+                    <img src="iphone.png" alt="iphone">
+                </span>
+                <span class="line"></span>
+                <input type="text" placeholder="请输入手机号" onfocus="this.placeholder=''" onblur="this.placeholder='请输入手机号'">
+            </p>
+            <p>
+                <span class="pic-2">
+                    <img src="locked.png" alt="locked">
+                </span>
+                <span class="line"></span>
+                <input type="password" placeholder="请输入密码" onfocus="this.placeholder=''" onblur="this.placeholder='请输入密码'">
+            </p>
+        </div>
+        <div class="D">
+            <p class="bottom">
+                <span>登陆</span>
+            </p>
+            <a href="//baidu.com">忘记密码？</a>
+        </div>
+    </div>
+</body>
+</html>
